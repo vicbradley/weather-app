@@ -88,8 +88,12 @@ body {
     justify-content: center;
 }
 
+.container-weather-image > * {
+    width: 50%;
+}
+
 #weather-image {
-    width: 6rem;
+    width: 6.5rem;
 }
 
 .weather-desc {
@@ -190,13 +194,17 @@ body {
         font-size: 1rem;
     }
 
-    .container-weather-image {
+    .name,.container-weather-image,.localtime {
+        margin-top: -1rem;
+    }
+
+    /* .container-weather-image {
         margin-top: -1rem;
     }
 
     .localtime {
         margin-top: -1rem;
-    }
+    } */
 
     .weather-desc {
         width: 100%;
