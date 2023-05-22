@@ -194,17 +194,14 @@ body {
         font-size: 1rem;
     }
 
-    .name,.container-weather-image,.localtime {
+    .name {
+        margin-bottom: 1rem;
+    }
+    
+    .container-weather-image,.localtime {
         margin-top: -1rem;
     }
 
-    /* .container-weather-image {
-        margin-top: -1rem;
-    }
-
-    .localtime {
-        margin-top: -1rem;
-    } */
 
     .weather-desc {
         width: 100%;
@@ -215,6 +212,7 @@ body {
         justify-content: center;
         font-size: 1rem;
     }
+
 
     .temp {
         font-size: 1.3rem;
